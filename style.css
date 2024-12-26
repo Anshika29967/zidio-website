@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+}
+li{
+    margin: 0 15px;
+    text-align: end;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.navbar .end-links ul {
+    display: flex;
+    margin-left: auto; /* Pushes links to the right end */
+}
+.navbar ul li a:hover {
+    color: #00ccff;
+}
+.container{
+    background-image: url('back.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    position: relative;
+}
+.container-text{
+    position: absolute; /* Absolute positioning relative to the container */
+    top: 30%; /* Center vertically */
+    left: 60%; /* Center horizontally */
+    
+    color: white; /* Set text color */
+    text-align: end; /* Center the text */
+    padding: 20px;
+    border-radius: 10px;
+}
+h1,h2,p{
+    margin: 0;
+}
+.read{
+    background-color: rgb(20, 20, 127);
+    border-radius: 30px;
+    height:40px;
+    width:100px;
+    font-weight: bold;
+    color: white;
+}
+.read:hover{
+    background-color: rgb(90, 90, 232);
+}
+.search-btn {
+    padding: 8px 12px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.search-btn:hover {
+    background-color: #e64e21;
+}
+.send{
+    background-color: rgb(15, 15, 152);
+    width: 150px;
+    height:50px;
+    color:white;
+}
+.contact-container{
+    background-image: url('back1.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    position: relative;
+}
